@@ -1,83 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&display=swap');
 
 * {
-  box-sizing: border-box;
-  font-family: "Gemunu Libre", sans-serif;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #weather_box {
-  width: 300px;
-  height: 280px;
-  display: flex;
-  flex-direction: column;
-  margin: 100px auto;
-  background-color: rgb(129, 129, 238);
-  border-radius: 10px;
-  box-shadow: 10px 10px 34px -6px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    background-color: rgb(129, 129, 238);
+    border-radius: 10px;
+    box-shadow: 10px 10px 34px -6px rgba(0, 0, 0, 0.75);
 }
 
 #weather_search {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #weather_search p {
-  margin: 14px 10px;
-  font-size: 12px;
-  text-align: center;
-  font-weight: 500;
+    margin: 14px 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
 }
 
 #city_name {
-  width: 200px;
-  height: 30px;
-  border: 2px solid black;
-  border-radius: 5px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 16px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
 }
 
 #show {
-  width: 180px;
-  height: 40px;
-  border-radius: 8px;
-  margin: 0 auto;
-  cursor: pointer;
-  color: orange;
-  font-size: 12px;
-  font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: orange;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.weather_watch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+#weather_watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 #weather_list {
-  margin: 15px 10px 10px;
-  text-align: center;
+    margin: 15px 10px 10px;
+    text-align: center;
 }
 
 #weather_threeDays {
-  margin: 5px 10px;
-  text-align: center;
+    margin: 5px 10px;
+    text-align: center;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 #closeWeather {
-  font-size: 10px;
-  border-radius: 3px;
-  border: 1px solid black;
-  padding: 2px;
-  cursor: pointer;
-  margin-top: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 2px;
+    cursor: pointer;
+    margin: 20px auto;
 }

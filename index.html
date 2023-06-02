@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div id="weather_box">
-      <div id="weather_search">
-        <p>ВВЕДИТЕ НАЗВАНИЕ ГОРОДА НА АНГЛИЙСКОМ</p>
-        <input id="city_name" type="text" placeholder="city name" /> <br />
-        <button id="show">ЗАПРОСИТЬ ПРОГНОЗ</button>
-      </div>
-      <div class="weather_watch">
-        <ol id="weather_list"></ol>
-        <ol id="weather_threeDays"></ol>
-        <button id="closeWeather">СБРОСИТЬ</button>
-      </div>
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="./css/style.css" />
+    </head>
+    <body>
+        <div id="weather_box">
+            <div id="weather_search">
+                <p>ENTER THE NAME OF THE CITY IN ENGLISH</p>
+                <input
+                    id="city_name"
+                    type="text"
+                    placeholder="city name" />
+                <br />
+                <button id="show">REQUEST FORECAST</button>
+            </div>
+            <div id="weather_watch">
+                <ol id="weather_list"></ol>
+                <ol id="weather_threeDays"></ol>
+            </div>
+            <button id="closeWeather">reset</button>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
 </html>
